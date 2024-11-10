@@ -7,6 +7,8 @@ import UseEffect from './Components/UseEffect';
 import APIIntegration from './Components/APIIntegration';
 import UseEffect2 from './Components/UseEffect2';
 import UseRef from './Components/UseRef';
+import PropDriling from './Components/PropDriling';
+import UseContext from './Components/UseContext';
 
 
 function App() {
@@ -19,7 +21,10 @@ function App() {
      {/* <UseEffect/> */}
      {/* <APIIntegration/> */}
      {/* <UseEffect2/> */}
-     <UseRef/>
+     {/* <UseRef/> */}
+     {/* <PropDriling/> */}
+     <UseContext/>
+   
     </div>
      
   );

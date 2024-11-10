@@ -6,7 +6,7 @@ function UseEffect2() {
     const[mul , setMul]=useState(0);
 
     const increase = (e)=>{
-        setCount(count+1)
+        setCount(count+1);
         //q)e set count anaydhi apuduaaythay 20 ki reach ayiondho automatiga value anaydhi 0 chayali adhi ela antay useeffect ni use zero chasthamu
     }
     // useEffect(()=>{
