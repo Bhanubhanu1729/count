@@ -25,6 +25,7 @@ function C({value}){
 
             {/* <D value={er}/> */}
             <D value={value}/>
+            
 
         </div>
     )
