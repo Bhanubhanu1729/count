@@ -6,10 +6,12 @@ class UserForm extends React.Component
   {
     super();
 
-    this.state = {Username :' '};
+    this.state = {Username :' '}; //this.state manageing the internal values
+
+    this.updateUser = this.updateUser.bind(this);
   }  
-  updateUser=(event)=>{
-    this.setState({ Username: event.target.value });
+  updateUser(event){
+    this.setState({ Username: event.target.value }); //updating the user data
   }
   render (){
     return(
