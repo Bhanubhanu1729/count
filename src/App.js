@@ -9,6 +9,8 @@ import UseEffect2 from './Components/UseEffect2';
 import UseRef from './Components/UseRef';
 import PropDriling from './Components/PropDriling';
 import UseContext from './Components/UseContext';
+import UseCallback from './Components/UseCallback';
+import MemoExamples from './Components/MemoExample';
 
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
      {/* <UseEffect2/> */}
      {/* <UseRef/> */}
      {/* <PropDriling/> */}
-     <UseContext/>
+     {/* <UseContext/> */}
+     {/* <UseCallback/> */}
+     <MemoExamples/>
    
     </div>
      
